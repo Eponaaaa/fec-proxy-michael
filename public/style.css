@@ -1,0 +1,29 @@
+body {
+  background-color: #FFFFFF;
+  margin: 0;
+  padding: 0;
+}
+
+header img {
+  max-width: 100%;
+}
+
+#overlord {
+  
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+  
+#app1 { grid-area: 1 / 1 / 4 / 4; }
+#app2 { grid-area: 1 / 4 / 6 / 6; }
+#app3 { grid-area: 4 / 1 / 6 / 4; }
+
+#app4 {
+  width: 100vw;
+}
