@@ -1,9 +1,12 @@
-npm i react react-dom express body-parser
+## Install dependencies
+npm i
 
-npm i -D webpack webpack-cli webpack-dev-server nodemon
+### List of dependencies
+npm i express body-parser
+npm i -D nodemon
+
+## To start the server
+npm run start
 
 ### package.json scripts ###
-"start": "webpack --mode=development",
-"build": "webpack --mode=production",
-"react-dev": "webpack-dev-server --open",
-"server-dev": "nodemon server/index.js"
+"start": "nodemon server/index.js"
